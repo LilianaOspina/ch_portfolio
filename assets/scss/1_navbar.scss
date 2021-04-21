@@ -1,0 +1,29 @@
+//FALTA NAVBAR
+#navbar {
+    display: none;
+
+    @media (max-width: 720px) {
+        display: flex;
+        .nav__navbar {
+            width: 100%;
+            padding: 20px;
+
+            .nav__logo {
+                width: 20%;
+            }
+            .nav__menu {
+                display: none;
+                flex-direction: column;
+                text-align: flex-start;
+                width: 100%;
+                margin-top: 44px;
+                .nav__menulist {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+//all
+.cont__title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .icon {
+        font-size: 2.4em;
+        padding: 0.6em;
+    }
+    .title {
+        font-weight: 700;
+        padding: 20px 4px;
+        letter-spacing: 3px;
+    }
+}
+//mobile
+@media (max-width: 720px) {
+    #cv {
+        min-width: 350px;
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    .s__xs {
+        font-size: 16px;
+        font-family: "Ubuntu", sans-serif;
+    }
+    .s__s {
+        font-size: 17px;
+        font-family: "Montserrat", sans-serif;
+    }
+    .s__m {
+        font-size: 18px;
+        font-family: "Montserrat", sans-serif;
+    }
+    .s__l {
+        font-size: 30px;
+        font-family: "Open Sans Condensed", sans-serif;
+    }
+    .s__xl {
+        font-size: 40px;
+        font-family: "Ubuntu", sans-serif;
+    }
+}
+
+//desktop
+@media (min-width: 720px) {
+    #cv {
+        min-width: 720px;
+        max-width: 1000px;
+        margin: 2% auto;
+    }
+    .s__xs {
+        font-size: 16px;
+        font-family: "Ubuntu", sans-serif;
+    }
+    .s__s {
+        font-size: 18px;
+        font-family: "Montserrat", sans-serif;
+    }
+    .s__m {
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+    }
+    .s__l {
+        font-size: 35px;
+        font-family: "Open Sans Condensed", sans-serif;
+    }
+    .s__xl {
+        font-size: 40px;
+        font-family: "Ubuntu", sans-serif;
+    }
+}

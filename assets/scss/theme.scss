@@ -1,0 +1,122 @@
+$color_1: #08264f;
+$color_2: #b6cedb;
+$color_3: #26d6b1;
+$color_4: #efdf80;
+
+//fonts
+// font-family: 'Lexend', sans-serif;
+
+// font-family: 'Montserrat', sans-serif;
+
+// font-family: 'Open Sans Condensed', sans-serif;
+
+// font-family: 'Ubuntu', sans-serif;
+body {
+    background-image: url("/paper_texture.png");
+}
+#cv {
+    box-shadow: 2px 6px 14px 2px #000000;
+}
+#navbar{
+    background-color: $color_1;
+    .nav__logo{
+        .icon {
+            color: $color_3;
+        }
+    }
+    .nav__menulist{
+        a {
+            color: $color_1;
+            &:visited{
+                color: $color_1;
+            }
+        }
+    }
+}
+
+.cont__title {
+    .icon {
+        color: $color_3;
+    }
+    .title {
+        color: $color_3;
+    }
+}
+.subtitle {
+    color: $color_1;
+}
+.text {
+    color: $color_1;
+}
+.text_dark {
+    color: $color_3;
+}
+
+//sections
+.profile {
+    background-color: $color_1;
+    box-shadow: 2px 6px 14px 2px #000000;
+    .name {
+        color: $color_4;
+    }
+    .text {
+        color: $color_2;
+    }
+}
+.cont__interest {
+    .icon {
+        color: $color_4;
+    }
+}
+.contact {
+    color: $color_2;
+    .subtitle {
+        color: $color_2;
+    }
+    .text {
+        color: $color_2;
+    }
+    .icon {
+        color: $color_2;
+    }
+}
+#education {
+    .stats {
+        .title {
+            color: $color_1;
+        }
+        .icon {
+            color: $color_1;
+        }
+    }
+}
+#experience {
+    .box {
+        border-bottom: 1px solid $color_2;
+    }
+}
+#skills {
+    .cont__title {
+        .icon {
+            color: $color_3;
+        }
+    }
+    .icon {
+        color: $color_1;
+    }
+}
+
+.footer__cv {
+    box-shadow: 2px 6px 14px 2px #000000;
+    background-color: $color_1;
+    .icon {
+        color: $color_2;
+    }
+    .text {
+        color: $color_2;
+    }
+    .box {
+        border: 2px solid #b6cedb;
+        background-color:  #08264f;
+    }
+}
