@@ -1,1 +1,0 @@
-../documents/.git-push.bat
