@@ -298,7 +298,7 @@
               text-decoration: none; } }
 
 body {
-  background-image: url("/paper_texture.png"); }
+  background-image: url("../image/paper_texture.png"); }
 
 #cv {
   box-shadow: 2px 6px 14px 2px #000000; }
